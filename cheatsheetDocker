@@ -1,30 +1,9 @@
-# FormationPython
-
-Les exercices se trouvent dans le dossier python.
-
-##Python
-fichier LessonOneHitema
-
-##Datavisualisation
-fichiers LessonDataViz1, LessonDataViz2, LessonDataViz3, LessonDataViz4, LessonDataVizKPI3
-
-##Docker
-fichier Dockerfile à la racine du git
-
-
-##réponses : 
-1. sudo groupadd docker
-2. sudo gpasswd -a $USER docker
-
-Par défaut le démon docker doit toujours être lancé en root, ou avec sudo devant. Mais depuis la version 0.5.2, si un user fait parti du groupe docker, alors Unix va le considérer comme équivalent a root.
-
-
-Cheatsheet : 
-docker info : affiche les infos systeme
+docker info : affiche le sinfos systeme
 Docker pull : télécharger une image
 docker push : Publier une image
-docker pull:sid : télécharger avec sid
+docker pull:sid : télécherger avec sid
 docker run -ti debian:laster bash : exécute la plus récente image de debian
+CTRL+D = déconnexion
 
 docker build xx : creer image
 
